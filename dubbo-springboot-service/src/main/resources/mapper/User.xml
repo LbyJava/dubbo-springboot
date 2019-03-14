@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lby.dubbospringbootservice.mapper.UserMapper" >
+
+    <select id="findAllUsers" resultType="com.lby.dubbospringbootiservice.dubbo.pojo.UserModel">
+        select * from user
+    </select>
+
+</mapper>
